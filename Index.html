@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Ti</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+      font-family: 'Georgia', serif;
+      color: #3a3a3a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      animation: fadeIn 3s ease;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      color: #b30059;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .heart {
+      font-size: 3em;
+      animation: beat 1.5s infinite;
+      color: #ff3366;
+      margin-top: 20px;
+    }
+
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.3);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #5f5f5f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hola, Bri 🌸</h1>
+  <p>
+    Aprendi alguna cosas y intento acer algo para ti<br>
+    Sabes me gusta pasar tiempo contigo y hacer muchas cosas, me gustaria poder dormir a tu lado para poder
+    abrigarte y cuidarte toda la noche, pero ya abra tiempo para eso por ahora me siento bien con tan solo 
+    pasar un rato contigo te quiero mucho,espero podamos lograr todo juntos y siempre ver una sonrisa en tu rostro<br>
+    te mando un fuerte abrazo y muchos besitos.
+  </p>
+
+  <div class="heart">❤️</div>
+
+  <footer>
+    Con cariño,<br>
+    alguien que piensa mucho en ti.
+  </footer>
+
+</body>
+</html>
